@@ -1,6 +1,6 @@
 /* red:#861e32 lightred: #cd3554 pink: #f29898 blue: #1d314b lightgray: rgba(226, 232, 238, .9)*/
 body {
-    font-family: STFangSong, "华文仿宋", FangSong, "仿宋";
+    font-family: "Times New Roman", Times, serif, STFangSong, "华文仿宋", FangSong, "仿宋";
     font-size: 1.2rem;
 }
 a {
@@ -129,7 +129,7 @@ a {
     padding: 8px 32px;
     border-radius: 4px;
     color: #1d314b;
-    font-family: STKaiTi;
+    font-family: KaiTi, "楷体", STKaiTi, "华文楷体";
     background-color: #f29898;
     transition: background-color .2s ease, color .2s ease;
 }
@@ -141,7 +141,7 @@ a {
     width: 100%;
     text-align: center;
     font-size: 2rem;
-    font-family: STKaiTi;
+    font-family: KaiTi, "楷体", STKaiTi, "华文楷体";
     margin-bottom: 1rem;
 }
 .text-background {
@@ -151,7 +151,7 @@ a {
 .header-title {
     padding-bottom: .5rem;
     font-size: 4rem;
-    font-family: STKaiTi;
+    font-family: KaiTi, "楷体", STKaiTi, "华文楷体";
 }
 .header-sub {
     margin-top: .5rem;
@@ -186,8 +186,11 @@ a {
     padding: 0 8px;
     margin: 1rem 0;
 }
-.program-content:nth-child(even) {
+#ps .program-content:nth-child(even) {
     background-color: rgba(226, 232, 238, .9);    
+}
+#cv .program-content:nth-child(even) {
+    background-color: rgba(255,255,255,0.8);    
 }
 .program-title {
     margin: 0 auto;
