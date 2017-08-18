@@ -198,9 +198,7 @@ a {
 .program-content:nth-child(even) {
     background-color: rgba(242,152,152,.4);    
 }
-#critique .program-content:nth-child(odd) {
-    background-color: rgba(255,255,255,0.8);    
-}
+
 .program-title {
     margin: 0 auto;
     display: flex;
