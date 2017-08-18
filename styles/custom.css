@@ -165,7 +165,7 @@ a {
 }
 .icon-table-item {
     width: 15%;
-    padding: 4px;
+    padding: 6px;
     min-width: 80px;
 }
 
@@ -181,5 +181,5 @@ footer {
     flex: 1;
 }
 .copyright {
-    margin: 0 auto;
+    margin: 0 auto 4px;
 }
