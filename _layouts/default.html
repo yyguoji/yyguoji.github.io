@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{site.title}}</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
     <link rel="stylesheet" href="styles/custom.css">
@@ -13,8 +13,9 @@
 
 <body>
     <section id="top">
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">{{site.title}}</a>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-blue">
+            <a class="navbar-brand font-kai rm-padding font-md" href="index.html">{{site.title}}</a>
+            <div class="nav-logo-holder"></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
@@ -24,27 +25,25 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">首页<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="consult.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                                    经验分享、对话交流
+                    <li class="nav-item my-dropdown">
+                        <a class="nav-link dropdown-toggle" href="consult.html">
+                                    咨询项目
                             </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="my-dropdown-menu">
                             <a class="dropdown-item" href="consult.html#">聊聊理想</a>
                             <a class="dropdown-item" href="#">留学申请</a>
                             <a class="dropdown-item" href="#">工作准备</a>
-                            <a class="dropdown-item" href="#">综合了解</a>
+                            <a class="dropdown-item" href="#">综合咨询</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="essay.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
+                    <li class="nav-item my-dropdown">
+                        <a class="nav-link dropdown-toggle" href="essay.html">
                                     文书项目
                             </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="my-dropdown-menu">
                             <a class="dropdown-item" href="#">逻辑结构</a>
                             <a class="dropdown-item" href="#">语言润色</a>
-                            <a class="dropdown-item" href="#">“俘获”招生官（信息提取与易读性）</a>
+                            <a class="dropdown-item" href="#">排版美化</a>
                             <a class="dropdown-item" href="#">综合优化</a>
                         </div>
                     </li>
@@ -64,8 +63,9 @@
     <div id="wrapper">
         {{ content }}
     </div>
-    <footer>
-        <p>&copy; 2017 {{site.title}}</p>
+    <footer class="bg-blue">
+        <div class="footer-content"></div>
+        <p class="copyright">&copy; 2017 {{site.title}}</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
