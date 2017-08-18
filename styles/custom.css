@@ -206,10 +206,9 @@ a {
     justify-content: space-around;
     align-items: center;
 }
-.program-pricing {
-    text-align: center;
+.text-center {
+    text-align: center;    
 }
-
 
 
 footer {
