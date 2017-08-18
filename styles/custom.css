@@ -1,6 +1,6 @@
 /* red:#861e32 lightred: #cd3554 pink: #f29898 blue: #1d314b lightgray: rgba(226, 232, 238, .9)*/
 body {
-    font-family: STFangSong;
+    font-family: STFangSong, "华文仿宋", FangSong, "仿宋";
     font-size: 1.2rem;
 }
 a {
@@ -178,15 +178,8 @@ footer {
     font-size: 1rem;
 }
 .footer-content {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: top;
     padding-top: 1rem;
-}
-.vertical-menu {
-    
+    margin: 0 auto;
 }
 .copyright {
     margin: 0 auto;
