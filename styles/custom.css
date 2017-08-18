@@ -1,4 +1,10 @@
-/* red:#861e32 lightred: #cd3554 pink: #f29898 blue: #1d314b lightgray: rgba(226, 232, 238, .9)*/
+/* red:#861e32 
+lightred: #cd3554 
+pink: #f29898 
+lightpink: rgba(242,152,152,.4)
+blue: #1d314b 
+lightgray: rgba(226, 232, 238, .9)
+*/
 body {
     font-family: "Times New Roman", Times, serif, STFangSong, "华文仿宋", FangSong, "仿宋";
     font-size: 1.2rem;
@@ -37,8 +43,11 @@ a {
     background-repeat: no-repeat;
     margin-right: 16px;
 }
-.container-fluid:nth-child(odd) {
+#home .container-fluid:nth-child(odd) {
     background-color: rgba(226, 232, 238, .9);
+}
+#essay .container-fluid:not(:last-child) {
+    border-bottom: 2px solid rgba(226, 232, 238, .9);
 }
 /* bootstrap overwrite */
 .navbar-brand {
@@ -178,22 +187,16 @@ a {
 .program-card {
     padding: 1rem 0;
     margin-bottom: 1rem;
-    border-top: 2px solid rgba(0,0,0,0.6);
-    border-bottom: 2px solid rgba(0,0,0,0.6);
+    border-top: 2px solid #f29898;
+    border-bottom: 2px solid #f29898;
 }
 .program-content {
     font-size: 1rem;
     padding: 0 8px;
     margin: 1rem 0;
 }
-#ps .program-content:nth-child(even) {
-    background-color: rgba(226, 232, 238, .9);    
-}
-#all .program-content:nth-child(odd) {
-    background-color: rgba(226, 232, 238, .9);    
-}
-#cv .program-content:nth-child(even) {
-    background-color: rgba(255,255,255,0.8);    
+.program-content:nth-child(even) {
+    background-color: rgba(242,152,152,.4);    
 }
 #critique .program-content:nth-child(odd) {
     background-color: rgba(255,255,255,0.8);    
