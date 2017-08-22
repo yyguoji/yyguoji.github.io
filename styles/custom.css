@@ -175,10 +175,10 @@ a {
     font-size: 2.5rem;
     font-family: "Times New Roman", Times, serif, KaiTi, "楷体", STKaiTi, "华文楷体";    
 }
-#home > .header-title {
+#home .header-title {
     padding-bottom: .5rem;
     font-size: 4rem;
-    font-family: "Times New Roman", Times, serif, KaiTi, "楷体", STKaiTi, "华文楷体";
+    font-family: 'Trade Winds', cursive, KaiTi, "楷体", STKaiTi, "华文楷体";
 }
 .header-sub {
     margin-top: .5rem;
