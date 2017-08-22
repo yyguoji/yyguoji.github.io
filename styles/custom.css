@@ -104,6 +104,12 @@ a {
 #home .bg-lg {
     background-image: url("../images/homebg.jpg");
 }
+#consult .bg-lg {
+    background-image: url("../images/consultbg.jpg");
+}
+#essay .bg-lg {
+    background-image: url("../images/essaybg.jpg");
+}
 .section-gap {
     padding: 2rem 0 2rem 0;
 }
@@ -127,6 +133,13 @@ a {
 .card-img {
     width: 34%;
     max-width: 220px;
+}
+.card-img-sm {
+    width: 14%;
+    max-width: 40px;
+}
+.card-content-sm {
+    width: 85%;
 }
 .dash-separater {
     color: #cd3554;
@@ -158,6 +171,11 @@ a {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 .header-title {
+    padding-bottom: .5rem;
+    font-size: 2.5rem;
+    font-family: "Times New Roman", Times, serif, KaiTi, "楷体", STKaiTi, "华文楷体";    
+}
+#home > .header-title {
     padding-bottom: .5rem;
     font-size: 4rem;
     font-family: "Times New Roman", Times, serif, KaiTi, "楷体", STKaiTi, "华文楷体";
@@ -206,8 +224,11 @@ a {
     justify-content: space-around;
     align-items: center;
 }
-.text-center {
-    text-align: center;    
+.text-center{
+    text-align: center;
+}
+.img-fill {
+    width: 100%;
 }
 
 
