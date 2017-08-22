@@ -53,6 +53,12 @@ a {
 .navbar-brand {
     margin-right: 0;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.75);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
 .nav-item {
     margin: 0 .3rem 0 .3rem;
 }
