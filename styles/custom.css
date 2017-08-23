@@ -20,6 +20,16 @@ a {
 #contact a:hover {
     color: #cd3554;
 }
+#qa a {
+    text-decoration: none !important;
+    color: black;    
+}
+#qa a:hover {
+    color: #cd3554;
+}
+footer a:hover {
+    color: #f29898;
+}
 .rm-padding {
     padding: 0;
 }
