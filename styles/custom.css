@@ -13,6 +13,13 @@ a {
     text-decoration: none !important;
     color: rgba(255,255,255,0.8);
 }
+#contact a {
+    text-decoration: none !important;
+    color: black;    
+}
+#contact a:hover {
+    color: #cd3554;
+}
 .rm-padding {
     padding: 0;
 }
