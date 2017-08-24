@@ -36,6 +36,12 @@ footer a:hover {
 .rm-margin {
     margin: 0;
 }
+.topmargin {
+    margin-top: 1rem;
+}
+.bottommargin {
+    margin-bottom: 1rem;
+}
 .font-md {
     font-size: 1.8rem;
 }
