@@ -72,6 +72,9 @@ footer a:hover {
 #essay .container-fluid:not(:last-child) {
     border-bottom: 2px solid rgba(226, 232, 238, .9);
 }
+#about .center-horizontal:not(:last-child) {
+    border-bottom: 2px solid rgba(226, 232, 238, .9);
+}
 /* bootstrap overwrite */
 .navbar-brand {
     margin-right: 0;
@@ -144,11 +147,6 @@ footer a:hover {
 }
 .card-decoration {
     margin-bottom: 1rem;
-    border-right: 4px solid transparent;
-    transition: border-right .2s ease;    
-}
-.card-decoration:hover {
-    border-right: 4px solid #cd3554;
 }
 .card-horizontal {
     display: flex;
