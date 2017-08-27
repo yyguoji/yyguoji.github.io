@@ -130,12 +130,17 @@ footer a:hover {
 }
 .header-card {
     position: absolute;
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
     text-align: right;
     color: white;
     bottom: 30%;
-    right: 20%;
+}
+@media screen and (min-width: 675px) {
+    .header-card {
+        width: 100%;
+        right: 20%;
+    }
 }
 #home .bg-lg {
     background-image: url("../images/homebg.jpg");
