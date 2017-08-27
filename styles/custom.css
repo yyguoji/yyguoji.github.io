@@ -57,6 +57,10 @@ footer a:hover {
 .bg-red-light {
     background-color: #cd3554;    
 }
+.highlight {
+    font-weight: bold;
+    color: #cd3554;
+}
 .nav-logo-holder {
     display: inline-block;
     min-width: 48px;
