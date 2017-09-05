@@ -286,10 +286,61 @@ footer a:hover {
 .card-sm-info {
     font-family: "Times New Roman", Times, serif, STFangSong, "华文仿宋", FangSong, "仿宋";    
 }
-.card-sm-title {
-    width: 40%;
-    margin-right: 1rem;
-}
+/* slide */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 80%;
+    border-radius: 4px;
+    background-color: rgba(242,152,152,.4);
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1rem;
+    margin-top: -2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(242,152,152,.4);
+  }
+  
+  /* slide title */
+  .slideshow-container h3 {
+    font-family: "Times New Roman", Times, serif, STFangSong, "华文仿宋", FangSong, "仿宋";    
+    color: #1d314b;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .slideshow-container p {
+    color: #1d314b;
+    padding: 0 4rem 1rem;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation: 2s fade forwards;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
 
 
 
