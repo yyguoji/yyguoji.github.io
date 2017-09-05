@@ -286,6 +286,10 @@ footer a:hover {
 .card-sm-info {
     font-family: "Times New Roman", Times, serif, STFangSong, "华文仿宋", FangSong, "仿宋";    
 }
+.card-sm-title {
+    width: 40%;
+    margin-right: 1rem;
+}
 
 
 
